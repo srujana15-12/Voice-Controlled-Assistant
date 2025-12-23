@@ -1,2 +1,27 @@
-# Voice-Controlled-Assistant
-Voice-Controlled Assistant built using Python that listens to user voice commands and performs tasks like opening websites, searching the web, telling time, fetching Wikipedia summaries, telling jokes, and taking notes. Uses Speech Recognition and Text-to-Speech for natural interaction.
+1)Create a virtual environment:
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+2)Make sure microphone access works:
+
+On Windows, allow microphone permission for terminal/Python.
+
+If pyaudio fails to install, use pipwin install pyaudio (Windows) or install portaudio19-dev on Linux.
+3)RUN
+python main.py
+
+4)Speak commands like:
+
+"What is the time?"
+
+"Open YouTube"
+
+"Search machine learning"
+
+"Tell me a joke"
+
+"Take a note"
+
+"Read notes"
+
+"Exit"
